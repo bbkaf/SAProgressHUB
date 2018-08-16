@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA18F8C82125EFA4005883AB /* SAProgressHUB.h in Headers */ = {isa = PBXBuildFile; fileRef = DA18F8C62125EFA4005883AB /* SAProgressHUB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA18F8CF2125F0A6005883AB /* SAProgressHUB.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA18F8CE2125F0A6005883AB /* SAProgressHUB.swift */; };
+		DA18F8D52125F0F4005883AB /* animat-rocket-color.gif in Resources */ = {isa = PBXBuildFile; fileRef = DA18F8D12125F0F4005883AB /* animat-rocket-color.gif */; };
+		DA18F8D62125F0F4005883AB /* animat-checkmark-color.gif in Resources */ = {isa = PBXBuildFile; fileRef = DA18F8D22125F0F4005883AB /* animat-checkmark-color.gif */; };
+		DA18F8D72125F0F4005883AB /* animat-pencil-color.gif in Resources */ = {isa = PBXBuildFile; fileRef = DA18F8D32125F0F4005883AB /* animat-pencil-color.gif */; };
+		DA18F8D82125F0F4005883AB /* Spinner-1s-200px.gif in Resources */ = {isa = PBXBuildFile; fileRef = DA18F8D42125F0F4005883AB /* Spinner-1s-200px.gif */; };
+		DA18F8DA2125F0FB005883AB /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA18F8D92125F0FB005883AB /* UIImage+Gif.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA18F8C32125EFA4005883AB /* SAProgressHUB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SAProgressHUB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA18F8C62125EFA4005883AB /* SAProgressHUB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAProgressHUB.h; sourceTree = "<group>"; };
+		DA18F8C72125EFA4005883AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA18F8CE2125F0A6005883AB /* SAProgressHUB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAProgressHUB.swift; sourceTree = "<group>"; };
+		DA18F8D12125F0F4005883AB /* animat-rocket-color.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "animat-rocket-color.gif"; sourceTree = "<group>"; };
+		DA18F8D22125F0F4005883AB /* animat-checkmark-color.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "animat-checkmark-color.gif"; sourceTree = "<group>"; };
+		DA18F8D32125F0F4005883AB /* animat-pencil-color.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "animat-pencil-color.gif"; sourceTree = "<group>"; };
+		DA18F8D42125F0F4005883AB /* Spinner-1s-200px.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Spinner-1s-200px.gif"; sourceTree = "<group>"; };
+		DA18F8D92125F0FB005883AB /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA18F8BF2125EFA4005883AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA18F8B92125EFA4005883AB = {
+			isa = PBXGroup;
+			children = (
+				DA18F8C52125EFA4005883AB /* SAProgressHUB */,
+				DA18F8C42125EFA4005883AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA18F8C42125EFA4005883AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA18F8C32125EFA4005883AB /* SAProgressHUB.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA18F8C52125EFA4005883AB /* SAProgressHUB */ = {
+			isa = PBXGroup;
+			children = (
+				DA18F8D02125F0F4005883AB /* demoGif */,
+				DA18F8C62125EFA4005883AB /* SAProgressHUB.h */,
+				DA18F8CE2125F0A6005883AB /* SAProgressHUB.swift */,
+				DA18F8D92125F0FB005883AB /* UIImage+Gif.swift */,
+				DA18F8C72125EFA4005883AB /* Info.plist */,
+			);
+			path = SAProgressHUB;
+			sourceTree = "<group>";
+		};
+		DA18F8D02125F0F4005883AB /* demoGif */ = {
+			isa = PBXGroup;
+			children = (
+				DA18F8D12125F0F4005883AB /* animat-rocket-color.gif */,
+				DA18F8D22125F0F4005883AB /* animat-checkmark-color.gif */,
+				DA18F8D32125F0F4005883AB /* animat-pencil-color.gif */,
+				DA18F8D42125F0F4005883AB /* Spinner-1s-200px.gif */,
+			);
+			path = demoGif;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DA18F8C02125EFA4005883AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA18F8C82125EFA4005883AB /* SAProgressHUB.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DA18F8C22125EFA4005883AB /* SAProgressHUB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA18F8CB2125EFA4005883AB /* Build configuration list for PBXNativeTarget "SAProgressHUB" */;
+			buildPhases = (
+				DA18F8BE2125EFA4005883AB /* Sources */,
+				DA18F8BF2125EFA4005883AB /* Frameworks */,
+				DA18F8C02125EFA4005883AB /* Headers */,
+				DA18F8C12125EFA4005883AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SAProgressHUB;
+			productName = SAProgressHUB;
+			productReference = DA18F8C32125EFA4005883AB /* SAProgressHUB.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA18F8BA2125EFA4005883AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = HyerTech;
+				TargetAttributes = {
+					DA18F8C22125EFA4005883AB = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+					};
+				};
+			};
+			buildConfigurationList = DA18F8BD2125EFA4005883AB /* Build configuration list for PBXProject "SAProgressHUB" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DA18F8B92125EFA4005883AB;
+			productRefGroup = DA18F8C42125EFA4005883AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA18F8C22125EFA4005883AB /* SAProgressHUB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA18F8C12125EFA4005883AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA18F8D62125F0F4005883AB /* animat-checkmark-color.gif in Resources */,
+				DA18F8D72125F0F4005883AB /* animat-pencil-color.gif in Resources */,
+				DA18F8D52125F0F4005883AB /* animat-rocket-color.gif in Resources */,
+				DA18F8D82125F0F4005883AB /* Spinner-1s-200px.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA18F8BE2125EFA4005883AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA18F8DA2125F0FB005883AB /* UIImage+Gif.swift in Sources */,
+				DA18F8CF2125F0A6005883AB /* SAProgressHUB.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DA18F8C92125EFA4005883AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DA18F8CA2125EFA4005883AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DA18F8CC2125EFA4005883AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = KU48Y2UB6V;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SAProgressHUB/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyer.real.SAProgressHUB;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA18F8CD2125EFA4005883AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = KU48Y2UB6V;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SAProgressHUB/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyer.real.SAProgressHUB;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA18F8BD2125EFA4005883AB /* Build configuration list for PBXProject "SAProgressHUB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA18F8C92125EFA4005883AB /* Debug */,
+				DA18F8CA2125EFA4005883AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA18F8CB2125EFA4005883AB /* Build configuration list for PBXNativeTarget "SAProgressHUB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA18F8CC2125EFA4005883AB /* Debug */,
+				DA18F8CD2125EFA4005883AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA18F8BA2125EFA4005883AB /* Project object */;
+}
