@@ -8,7 +8,7 @@ s.homepage     = "https://github.com/bbkaf/SAProgressHUB"
 s.license      = "MIT"
 s.author       = { "Hank" => "bbkaf@hotmail.com" }
 s.platform     = :ios, "9.0"
-s.source       = { :git => "https://github.com/bbkaf/HyProgressHUB.git", :tag => s.version }
+s.source       = { :git => "https://github.com/bbkaf/SAProgressHUB.git", :tag => s.version }
 s.frameworks   = 'Foundation','UIKit','ImageIO'
 s.source_files = "SAProgressHUB/**/*.swift"
 s.resources = 'SAProgressHUB/**/*.gif'
